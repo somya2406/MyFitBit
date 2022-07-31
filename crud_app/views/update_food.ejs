@@ -1,0 +1,53 @@
+<!--include header-->
+<%-include('include/_header')%>
+<!--.include header-->
+
+ <!--main section-->
+ <main id="site-main">
+    <div class="container">
+        <div class="box-nav d-flex-justify-between">
+           <div class="filter">
+               <a href="/">All food items</a>
+           </div>
+        </div>
+        <div class="form-title text-center">
+            <h2 class="text-dark">Update values if required</h2>
+            <span class="text-light">Use the given form to updat evalues of  your favourite food item in the list.</span>
+        </div>
+      <!--add food form-->
+       <!--form handling-->
+ <form method="POST" id="update_food">
+    <div class="new_food">
+        <div class="form-group">
+            <label for="name" class="text-light">Food Name</label>
+            <input type="hidden" name="name" value="">
+            <input type="text" name="name" value="" placeholder="apple">  
+        </div>
+        <div class="form-group">
+         <label for="calories" class="text-light">Calories present</label>
+       
+         <input type="text" name="calories" value="" placeholder="44">  
+     </div>
+     <div class="form-group">
+        <label for="proteins" class="text-light">Proteins present</label>
+        
+        <input type="text" name="proteins" value="" placeholder="44">  
+    </div>
+    <div class="form-group">
+        <label for="vitamins" class="text-light">Vitamins present</label>
+       
+        <input type="text" name="vitamins" value="" placeholder="44">  
+    </div>
+     <div class="form-group">
+         <button type="submit" class ="btn text-ddark update">submit</button>
+     </div>
+    </div>   
+   </form>
+      
+    </div>
+</main>
+<!--/main section-->
+
+<!--include footer-->
+<%-include('include/_footer')%>
+<!--.include footer-->

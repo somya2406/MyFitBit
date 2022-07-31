@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    background: #64635c;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navigation li{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.navigation li a{
+    font-size: 15px;
+
+}
+.navigation li:hover a{
+    color: chartreuse;
+}
+.toggle_btn{
+    display: none;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+
+main{
+    text-align: center;
+}
+.show_box{
+    margin-top: 100px;
+  
+
+}
+.show_title {
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    color: rgb(28,238,54);
+    text-align: center;
+
+    
+}
+ h1{
+    font-size: 200px;
+
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contact:hover{
+    background-color: rgb(47,82,12);
+}
+.read-more:hover{
+    color: chartreuse;
+}
+[class*-'fa']{
+    color: #fff;
+    margin-left: 10px;
+}
+[class*-'fa']:hover{
+    color: chartreuse;
+}
+@media  screen and (max-width: 968px)
+{
+  h1{
+   font-size: 70px;
+
+  }
+  h2{
+    font-size: 50px;
+  }
+  .navigation li a{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:723px) {
+    .navigation li {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        padding: 3px;
+    }
+    
+}

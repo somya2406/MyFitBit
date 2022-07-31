@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Fredoka:wght@300&family=Fresca&family=Lily+Script+One&family=Nanum+Gothic+Coding:wght@700&family=Pangolin&family=Poppins:ital,wght@1,100&family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body
+{ margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: #161623;
+   min-height: 100vh;
+  
+}
+
+
+.head-container h1
+{
+  color: rgb(180, 206, 74);
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 60px;
+  text-shadow: 2px 2px #FF0000;
+
+}
+.head-container h1 span
+{
+  
+  font-size: 40px;
+}
+
+.list-container
+{
+    text-align: center;
+}
+.list-container a
+{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 90px;
+    font-size: 20px;
+    
+}
+.list-container a {
+    text-decoration: none;
+    color: white;
+}
+.list-container  a:hover {
+    text-decoration: none;
+    color: yellow;
+    
+}
+
+.container
+{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    float:left;
+    margin-left: 58px;
+   
+}
+
+.container   h2{
+    color: white;
+    opacity: 1;
+    font-size: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+
+.container .card
+{
+    position: relative;
+    width: 370px;
+    height: 440px;
+    background: rgba(225, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2) ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.container .card .content
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.container .card:hover .content
+{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.container .card .content .imgBx
+{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0,0,0,0.2);
+}
+
+.container .card .content .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    margin: 5px;
+}
+
+
+.container .card .content .contentBx h3
+{
+    color: #fff;
+
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+
+
+
+@media screen  and (max-width:530px) {
+
+    .head-container h1{
+        font-size: 30px;
+    }
+    .list-container a{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+}

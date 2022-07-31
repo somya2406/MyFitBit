@@ -1,0 +1,29 @@
+ <!--form handling-->
+ <form action ="/api/foodlist"  method="POST" id="add_food">
+    <div class="new_food">
+        <div class="form-group">
+            <label for="name" class="text-light">Food Name</label>
+            <input type="hidden" name="id" value="" >
+            <input type="text" name="name" value="" placeholder="">  
+        </div>
+        <div class="form-group">
+         <label for="calories" class="text-light">Calories present</label>
+         
+         <input type="text" name="calories" value="" placeholder="">  
+     </div>
+     <div class="form-group">
+        <label for="proteins" class="text-light">Proteins present</label>
+       
+        <input type="text" name="proteins" value="" placeholder="">  
+    </div>
+    <div class="form-group">
+        <label for="vitamins" class="text-light">Vitamins present</label>
+       
+        <input type="text" name="vitamins" value="" placeholder="">  
+    </div>
+
+     <div class="form-group">
+         <button type="submit" class ="btn text-dark update">submit</button>
+     </div>
+    </div>   
+   </form>

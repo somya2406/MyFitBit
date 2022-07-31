@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section{
+    padding: 0 100px;
+    background: url("/chat-web/images/chat-webpic.jpg");
+    height: 100vh;
+    padding-top: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.container{
+    max-width: 930px;
+    background-color:rgba(255,255,255,0.2); 
+    margin: auto;
+    height: 70vh;
+    padding: 33px;
+    margin-bottom: 8px;
+    overflow-y: auto;
+    border-radius :6px ;
+    padding-top: 8px;
+    box-shadow: 0 15px 15px rgba(0,0,0,.5);
+}
+
+.message{
+    background-color: rgb(156, 215, 192);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+
+#send-container
+{
+   text-align: center;
+   display: block;
+   margin: auto;
+   max-width: 985px;
+   width: 100%;
+}
+
+
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+   height: 34px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}

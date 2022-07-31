@@ -1,0 +1,16 @@
+<% for(var i=0;i<foodlist.length;i++){%>
+
+<tr>
+    <td><%=foodlist[i].name%></td>
+    <td><%=foodlist[i].calories%></td>
+    <td><%=foodlist[i].proteins%></td>
+    <td><%=foodlist[i].vitamins%></td>
+
+    <td>
+        
+        <a  class="btn border-shadoww delete" data-id=<%=foodlist[i]._id%>>
+           <span class="text-gradient">delete</span>
+           </a>
+   </td>
+</tr>
+<% } %>
